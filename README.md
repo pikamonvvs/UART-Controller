@@ -6,7 +6,7 @@ Able to operate 8 bits of serial data, one start bit, one stop bit.
 
 Usage
 -----
-![uart](rsc/uart.png)
+![uart](resources/uart.png)
 
 ### Parameters:
 * `CLOCK_RATE` - board internal clock rate
@@ -35,7 +35,7 @@ Usage
 
 Demo
 ----
-![structure](rsc/uart_structure.png)
+![structure](resources/uart_structure.png)
 
 Uart functional modeling on:
 * `CLOCK_RATE=32`
@@ -47,7 +47,7 @@ Uart functional modeling on:
 * `T(txStart) = 200us`
 * `T(in) = 30us` (counter inc by 1)
 
-![uart functional modeling](rsc/uart_func_model.png)
+![uart functional modeling](resources/uart_func_model.png)
 
 Receiver functional modeling on:
 * `T(clk) = 1us`
