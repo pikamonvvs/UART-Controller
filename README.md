@@ -54,7 +54,7 @@ Receiver functional modeling on:
 * `en=1`
 * `T(rx) = 144us`
 
-![receiver functional modeling](rsc/rx_func_model.png)
+![receiver functional modeling](resources/rx_func_model.png)
 
 Transmitter functional modeling on:
 * `T(clk) = 1us`
@@ -62,14 +62,14 @@ Transmitter functional modeling on:
 * `T(start) = 200us`
 * `T(in) = 30us` (counter inc by 1)
 
-![transmitter functional modeling](rsc/tx_func_model.png)
+![transmitter functional modeling](resources/tx_func_model.png)
 
 Baud rate generator functional modeling on:
 * `CLOCK_RATE=32`
 * `BAUD_RATE=1`
 * `T(clk) = 0.5us`
 
-![baud rate generator functional modeling](rsc/baud_gen_func_model.png)
+![baud rate generator functional modeling](resources/baud_gen_func_model.png)
 
 
 TODO
