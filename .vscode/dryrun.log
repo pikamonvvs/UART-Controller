@@ -1,0 +1,9 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `/c/Users/sj/Desktop/UART-Controller'
+rm -f test.vcd
+rm -f test.vvp
+iverilog -o test.vvp testbench/Uart8_tb.v
+vvp test.vvp
+gtkwave test.vcd
+make.exe: Leaving directory `/c/Users/sj/Desktop/UART-Controller'
+ 
